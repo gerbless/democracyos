@@ -7,7 +7,7 @@ services:
       dockerfile: ./docker/development.Dockerfile
     env_file: docker/.env
     ports:
-      - 80:80
+      - 3000:3000
     # mount source volume, but
     # don't overwrite `node_modules` or mirror dir from container
     volumes:

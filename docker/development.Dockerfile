@@ -16,6 +16,6 @@ RUN npm install --quiet --only=development
 
 COPY [".", "/usr/src/"]
 
-EXPOSE 80
+EXPOSE 3000
 
 CMD ["./node_modules/.bin/gulp", "bws"]
