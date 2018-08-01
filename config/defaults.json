@@ -1,17 +1,17 @@
 {
-  "locale": "en",
+  "locale": "es",
   "protocol": "http",
   "warnHTTP": true,
   "host": "localhost",
-  "publicPort": 3000,
+  "publicPort": 80,
   "mongoUrl": "mongodb://localhost/DemocracyOS-dev",
   "mongoUsersUrl": "",
-  "jwtSecret": "Generate a secret token and paste it here.",
+  "jwtSecret": "UniC7744",
   "corsDomains": [],
   "signinUrl": "",
   "signupUrl": "",
   "settingsUrl": "",
-  "staff": [],
+  "staff": ["gerbless@gmail.com"],
   "allowEmailAliases": true,
   "facebookSignin": false,
   "publicEmails": false,
@@ -42,12 +42,12 @@
     "url": "",
     "token": "",
     "mailer": {
-      "name": "The DemocracyOS Team",
-      "email": "no-reply@democracyos.org",
-      "service": "",
+      "name": "ConcresoPúblico Team",
+      "email": "gerbless@gmail.com",
+      "service": "gmail",
       "auth": {
-        "user": "",
-        "pass": ""
+        "user": "gerbless@gmail.com",
+        "pass": "19692833"
       }
     },
     "nodemailer": {}
