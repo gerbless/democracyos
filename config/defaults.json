@@ -46,7 +46,7 @@
       "email": "gerbless@gmail.com",
       "service": "SendGrid",
       "auth": {
-        "user": "gerbless",
+        "user": "apikey",
         "pass": "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"
       }
     },
