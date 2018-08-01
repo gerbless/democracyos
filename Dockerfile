@@ -17,7 +17,7 @@ COPY [".", "/usr/src/"]
 
 RUN npm run build -- --minify
 
-EXPOSE 3000
+EXPOSE 80
 
 ONBUILD COPY ["ext", "ext"]
 
