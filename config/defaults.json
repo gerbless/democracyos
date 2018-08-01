@@ -44,10 +44,10 @@
     "mailer": {
       "name": "ConcresoPúblico Team",
       "email": "gerbless@gmail.com",
-      "service": "gmail",
+      "service": "SendGrid",
       "auth": {
-        "user": "gerbless@gmail.com",
-        "pass": "19692833"
+        "user": "gerbless",
+        "pass": "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"
       }
     },
     "nodemailer": {}
