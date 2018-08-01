@@ -3,7 +3,7 @@
   "protocol": "http",
   "warnHTTP": true,
   "host": "localhost",
-  "publicPort": 80,
+  "publicPort": 3000,
   "mongoUrl": "mongodb://localhost/DemocracyOS-dev",
   "mongoUsersUrl": "",
   "jwtSecret": "UniC7744",
